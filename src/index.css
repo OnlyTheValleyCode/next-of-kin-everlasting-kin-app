@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.popup {
+  @apply fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50;
+}
+.btn-accent {
+  @apply px-6 py-2 rounded font-bold text-[color:var(--ek-bg-main)] bg-[color:var(--ek-accent-gold)] hover:bg-[color:var(--ek-accent-mint)] shadow;
+}
+.btn-muted {
+  @apply px-6 py-2 rounded font-bold bg-[color:var(--ek-text-muted)] text-[color:var(--ek-bg-main)] hover:bg-[color:var(--ek-accent-mint)] shadow;
+}

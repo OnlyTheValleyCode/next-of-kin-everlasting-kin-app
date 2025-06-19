@@ -1,0 +1,9 @@
+:root {
+  --ek-bg-main: #2C2C42;    /* Deep indigo/navy */
+  --ek-accent-gold: #FFD180; /* Warm gold accent */
+  --ek-accent-mint: #8EF6E4; /* Soft mint accent */
+  --ek-text-main: #F6F8FF;   /* Gentle off-white */
+  --ek-text-muted: #B8BACF;  /* Muted light grey */
+  --ek-error: #EA5C5A;       /* Soft, non-alarming red */
+  --ek-success: #69E99C;     /* Calm green */
+}
